@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sing Up</title>
+	<link rel="stylesheet" type="text/css" href="styleSheet.css">
+	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet"> 
+</head>
+<body>
+	<div id="top">
+		<div id="title">
+			<h1>Sign Up</h1>
+			<img src="signupIcon.png" />
+		</div>
+	</div>
+	<div id="middle">
+		<div class="registerArea">
+			<input type="text" name="name" id="nameTf" placeholder="Full Name" />
+		</div>
+		<div class="registerArea">
+			<input type="text" name="email" id="emailTf" placeholder="Valid Email" />
+			<span>@</span>
+			<select>
+				<option value="@gmail.com">gmail.com</option>
+				<option value="@outlook.com">outlook.com</option>
+				<option value="@yahoo.com">yahoo.com</option>
+				<option value="@live.com">live.com</option>
+			</select>
+		</div>
+		<div class="registerArea">
+			<input type="password" name="password" id="passwordTf" placeholder="Password">
+		</div>
+		<div class="registerArea">
+			<input type="password" name="confirmpassword" id="confirmpasswordTf" placeholder=" Confirm Password">
+		</div>
+		<div class="registerArea">
+			<textarea placeholder="Your Interests" id="interestsTa"></textarea>
+		</div>
+		<div class="registerArea">
+			<input type="checkbox" name="checkbox" value="agreed">
+			<span id="termsTxt">I have read and agree to the <a href="termsAndConditions.txt">Terms</a>.</span>
+		</div>
+		<div class="registerArea">
+			<button id="submitBtn">Submit</button>
+		</div>
+	</div>
+	<div id="bottom">
+		<a href="http://www.twitter.com"><img src="twitterIcon.png" class="socialmediaIcon"></a>
+		<a href="http://www.facebook.com"><img src="facebookIcon.png" class="socialmediaIcon"></a>
+		<a href="http://www.instagram.com"><img src="instagramIcon.png" class="socialmediaIcon"></a>
+		<a href="http://www.youtube.com"><img src="youtubeIcon.png" class="socialmediaIcon"></a>
+	</div>
+</body>
+</html>
