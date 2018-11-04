@@ -40,6 +40,10 @@ h1 {
 	margin: 2%;
 }
 
+#registerArea * {
+	color: #474747;
+}
+
 #submitBtn {
 	color: #4c4c4c;
 	margin-left: 48%;
@@ -47,7 +51,7 @@ h1 {
 }
 
 #termsTxt {
-	color: #bbc3ce; 
+	color: #707070; 
 	font-family: sans-serif; 
 	font-size: 0.8em;
 }
