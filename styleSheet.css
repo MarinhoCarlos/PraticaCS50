@@ -5,44 +5,45 @@ div {
 #top {
 	background-color: #5b9aff;
 	margin: -0.5em;
-	padding: 3em;
 	border: #ffff6d dashed 0.3em;
 }
 
 #title {
-	display: flex;
+	display: inline-flex;
 	align-items: center;
-	padding-left: 45%;
+	margin: 3em;
+	margin-left: 46%;
 }
+
 #middle {
 	margin: 3em;
 }
+
 h1 {
 	color: #4c4c4c;
 	text-align: center;
 }
 
-.registerArea {
-	margin: 1em;
-	padding-left: 33%;
+#registerArea {
+	margin: auto;
+	list-style-type: none;
+	display: table;
 }
 
-#nameTf {
-	padding-right: 16em;
+#nameTf, #passwordTf, #confirmpasswordTf, #interestsTa {
+	width: 95%;
+	margin: 2%;
 }
 
-#emailTf, #passwordTf, #confirmpasswordTf {
-	padding-right: 7em;
-}
-
-#interestsTa {
-	padding-right: 13.5em;	
+#emailTf {
+	width: 48.5%;
+	margin: 2%;
 }
 
 #submitBtn {
-	margin-left: 11em;
 	color: #4c4c4c;
-
+	margin-left: 48%;
+	margin-top: 2%;
 }
 
 #termsTxt {
@@ -51,9 +52,11 @@ h1 {
 	font-size: 0.8em;
 }
 
-#bottom {
-	padding-left: 42%;	
+#socialmediaArea {
+	margin-left: 40%;
+	display: inline-flex;
+	list-style-type: none;
 }
 .socialmediaIcon {
-	width: 5%;
+	width: 50%;
 }
