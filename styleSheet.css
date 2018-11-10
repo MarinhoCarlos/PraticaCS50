@@ -30,7 +30,7 @@ h1 {
 	display: table;
 }
 
-#nameTf, #passwordTf, #confirmpasswordTf, #interestsTa {
+#nameTf, #passwordTf, #confirmpasswordTf, #interestsTa, #countryTf{
 	width: 95%;
 	margin: 2%;
 }
@@ -64,3 +64,8 @@ h1 {
 .socialmediaIcon {
 	width: 50%;
 }
+/*
+#submitBtn:hover {
+	border: 2px #5b9aff solid;
+
+}*/

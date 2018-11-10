@@ -4,6 +4,7 @@
 	<title>Sing Up</title>
 	<link rel="stylesheet" type="text/css" href="styleSheet.css">
 	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 	<div id="top">
@@ -30,7 +31,20 @@
 
 			<li> <input type="password" name="password" id="passwordTf" placeholder="Password"></li>
 
-			<li> <input type="password" name="confirmpassword" id="confirmpasswordTf" placeholder=" Confirm Password"></li>
+			<li> <input type="password" name="confirmpassword" id="confirmpasswordTf" placeholder="Confirm Password"></li>
+
+			<li> <input type="text" name="country" list="countries" placeholder="Country" id="countryTf">
+				<datalist id="countries">
+				<option value="Afghanistan">
+				<option value="Brazi">
+				<option value="Finland">					
+				<option value="France">					
+				<optionD value="Germany">
+				<option value="Japan">
+				<option value="United States">
+				</datalist>
+				
+			</li>
 
 			<li> <textarea placeholder="Your Interests" id="interestsTa"></textarea></li>
 
